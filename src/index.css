@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+@theme {
+  --color-cream: #faf4e9;
+  --color-charcoal: #231e1a;
+  --color-burnt-orange: #c64419;
+  --color-peach: #ffab76;
+}
+
+body {
+  background-color: var(--color-cream);
+  color: var(--color-charcoal);
+  font-family: Arial, Helvetica, sans-serif;
+}
